@@ -1,0 +1,44 @@
+body{
+    background: #007fc7;
+}
+
+#container{
+    background:#fff ;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+    
+}
+
+
+p{
+width: 300px;
+}
+
+.absolute{
+    position: absolute;
+    background: #f2f2f2;
+    border: 1px solid red;
+    top: 80px;
+    right: 20px;
+
+}
+
+
+
+.fixed{
+    position: fixed;
+    background: #f2f2f2;
+    border: 1px solid red;
+    top: 0px;
+
+}
+
+.relative{
+    border: 1ps solid red;
+    position: relative; /* o Position: relative; se move atraves de elementos de deslocamento (top, bottom, right, left) */
+    top: 20px;
+    left: 80px;
+
+}
