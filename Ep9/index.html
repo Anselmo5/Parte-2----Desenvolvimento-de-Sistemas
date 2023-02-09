@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!-- cor e imagem de fundo-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha nona Aula</title>
+
+    <style>
+         body{
+           /* cor de fundo*/ background-color: #f2f2f2;
+        } 
+
+        body{
+            background-image: url('./img/amazon.png');
+            /* repeat, no- repeat, repeat-x( horisontal), repeat-y(vertical)*/
+            background-repeat:no-repeat ;
+              /* fixed(a imagem fica fixa)  scroll( a imagem acompanha  o conteudo que está subindo ou decendo com a barra de scroll )*/
+            background-attachment:scroll ;
+
+            background-position: center;   /*podemos colocar mais de um valor no backround-position*/
+
+              /*alinhamento na vertical (top, center, bottom) - primeiro valor
+                alinhamento na horisoltal (left, enter,right) - segundo valor
+              */
+
+                /* podemos também usar uma imagem e uma cor ao mesmo tempo*/
+
+                background: rebeccapurple url(./img/amazon.png) no-repeat center fixed;   /* Aqui também podemos ver que existem comandos mais completos como por exemplo o comando que estamos usando (bacground)
+                no bacground podemos utilizar todos os comandos que utilizamos para formatar a cor de fundo e a imagem em um so codigo, que nos permite utimizar bem o codigo
+                
+                */
+        }
+
+        
+        
+    </style>
+
+    
+</head>
+<body>
+       
+
+        <p>conteudo</p>
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci maiores cumque omnis amet fuga consequatur? Ab, reprehenderit labore doloremque beatae provident, quaerat illo facere nemo facilis ipsa, quae itaque obcaecati? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis suscipit perferendis doloremque, debitis tenetur minima vel dolore sed mollitia ipsa dolorum dolor porro impedit est corporis! Dolorum consectetur quasi expedita!</p>
+</body>
+</html>
