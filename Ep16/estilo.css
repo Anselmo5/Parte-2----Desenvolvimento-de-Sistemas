@@ -1,0 +1,34 @@
+a{
+    padding: 5px 10px;
+ }
+ 
+ /* formatação de links exemplo, links não visitados */
+ 
+ 
+ a:link{
+     color: #b9c941;
+ }
+ 
+ /* links visitados */
+ 
+ a:visited{
+  color: red;
+  background: #b9c941;
+  text-decoration: none;
+ }
+ 
+ /* cor do link quando passar o mouse em cima */
+ 
+ a:hover{
+     color: #e9e9e9;
+     background: #b9c941;
+     text-decoration: none;
+ }
+ 
+ 
+ /* links ativos quando clicados */
+ 
+ 
+ a:active{
+     color: pink ;
+ }
