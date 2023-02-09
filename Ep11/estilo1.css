@@ -1,0 +1,39 @@
+
+.oscot{
+    background: blue;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+}
+
+.oscot1{
+    background: red;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    float: left ;
+    margin: 10px;
+}
+
+.oscot2{
+    background: blue;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    float: left ;
+    margin: 10px;
+}
+
+
+.oscot3{
+    background: blue;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+
+.clear{
+    clear: left;
+}
