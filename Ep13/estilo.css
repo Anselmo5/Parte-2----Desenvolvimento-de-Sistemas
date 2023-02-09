@@ -1,0 +1,25 @@
+body{
+    background: #007fc7;
+}
+
+#container{
+    background:#fff ;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    
+}
+
+
+
+p{
+width: 300px;
+}
+
+.relative{
+    border: 1ps solid red;
+    position: relative; /* o Position: relative; se move atraves de elementos de deslocamento (top, bottom, right, left) */
+    top: 20px;
+    left: 80px;
+
+}
