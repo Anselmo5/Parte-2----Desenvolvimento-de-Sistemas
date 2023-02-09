@@ -1,0 +1,26 @@
+
+.cont1{
+    background: aqua;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    z-index: 0;
+    top:10px;
+    left: 30px;
+
+}
+
+
+.cont2{
+    background: rgb(32, 202, 214);
+    border: 1px solid rgb(0, 217, 255);
+    border-radius: 3px;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+     z-index: 2px; /* constesto de inpilhamento */
+    top: 80px;
+    left: 80px;
+}
