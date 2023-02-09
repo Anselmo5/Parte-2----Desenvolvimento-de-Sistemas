@@ -1,0 +1,32 @@
+.conteudo{
+    border: 1px solid red;
+    /* padding faz parte dos comandos que podemos utilizar para formatação de um codigo, sendo mais expesificamente uma formatação interna*/
+    /* abaixo podemos ver as variaves do padding, mas não é nessesario colocar uma por uma porque o comando(padding) por si so ja formata o
+        top,a direita(right), a esquerda(left), e a parte de baixo(bottom)
+    */
+    /* padding-top:20px;
+    padding-right: 20px; 
+    padding-bottom:20px ;    
+    padding-left:20px ; */
+
+    /* padding: 20px 15px 10px 5px ;  (mais se você quiser pode difinir uma largura para cada lado do box)*/
+
+    padding: 20px;
+
+    /* ja o margin serve de formatação externa, auxilia em espaçamento de um ou mais objetos*/
+     /* e assim como o padding variaves do mesmo comando, mas assim como o mesmo propeamente dito o comando (margin) em si já faz a formatação
+     em todos os lados sem precisar ficar se parando parte por parte, mas e claro se for preciso o comado atende mais de uma expesificasão 
+     como por exemplo (margin: 20px 5px; ) - onde a primeira expesificasão trata - se da parte superios e inferior do codigo e a segunda as laterais
+     */
+    /* margin-top:20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px; */
+    
+
+    margin: 20px;
+
+
+    width: 150px;
+}
+
