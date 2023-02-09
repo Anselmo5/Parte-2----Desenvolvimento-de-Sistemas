@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Aula sobre Divs e Span-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Quarta Aula Css</title>
+
+    <style>
+    /* Usamos o # para mostrar para o (CSS)  que estavmos usando um id*/    
+        #topo{
+            background-color: blue;
+        }
+
+        #Conteudo{
+            background: red;
+        }
+
+        #rodape{
+            background-color: pink;
+        }
+
+        .Produto{
+            background-color: green;
+            margin:10px; /* Margim de espaço da classe */
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="imagen"  id="topo"> <!-- <Div> - Divição de conteudo-->
+        <img src="../arquivos-necessarios-projetos-unes/logo.png" alt=""  width="200">
+        <ul>
+            <li>
+                Home
+            </li>
+
+            <li>
+                Produtos
+            </li>
+
+            <li>
+                contato
+            </li>
+        </ul>
+        
+    </div>
+
+    <div id="Conteudo">
+        <div class="Produto">
+            Produto 1
+        </div>
+
+        <div class="Produto">
+            Produto 2
+        </div>
+
+        <div class="Produto">
+            Produto 3
+        </div>
+    </div>
+
+    <div id="rodape" style="text-align: center;">
+        Todos os Direitod Reservaods
+    </div>
+
+
+    <span> <!-- A Tag Span e uma Tag Inline style ou seja ela e uma formatação direto no elemento, usada para diversos fins, como por exemplo formatação de texto, uma das caracteristicas do span e que ele alinha caracteres um na frente do outro(  Exemplo : Anselmo Henrique), diferente da (div) que do tipo block e deixa os caracteres cebaraodos (Exemplo:
+                 Anselmo
+                enrique)-->
+        Anselmo
+    </span> 
+
+    <span>
+        Henrique
+    </span>
+
+    <div>
+        Anselmo
+    </div>
+
+    <div>
+        Henrique
+    </div>
+
+</body>
+</html>
