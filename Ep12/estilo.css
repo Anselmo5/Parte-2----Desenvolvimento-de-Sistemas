@@ -1,0 +1,7 @@
+.borda{
+    border: 1px solid blue;
+    display: inline-block;  /* < o inline-block so quebra para outra linha quando não tem mais espaço para onde ir */
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
